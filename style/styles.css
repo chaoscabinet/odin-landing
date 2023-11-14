@@ -1,5 +1,19 @@
+* {
+    margin: 30px;
+    padding: 10px;
+    font-family: roboto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
 .hero {
     background-color: #1f2937;
+    display: flexbox;
 }
 
 .navbar {
@@ -16,4 +30,10 @@ ul {
 
 li a {
     text-decoration: none;
+}
+
+.hero-image {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
