@@ -10,14 +10,11 @@ ul {
     top: 0;
     width: 100%;
     overflow: hidden;
-}
-
-li {
-    float: right;
+    text-align: end;
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: #e5e7eb;
     text-align: center;
     padding: 10px 5px;
