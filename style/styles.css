@@ -19,4 +19,7 @@ li {
 li a {
     display: block;
     color: #e5e7eb;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
 }
