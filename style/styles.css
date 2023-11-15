@@ -43,8 +43,17 @@ header a {
     color: #e5e7eb;
 }
 
-.hero-image {
+#hero-main {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero-image {
+    display: inline;
+    justify-content: right;
     height: 100px;
     width: 100px;
 }
