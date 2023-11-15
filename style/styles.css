@@ -58,10 +58,15 @@ header a {
     width: 100px;
 }
 
+.gallery {
+    background-color: #fff;
+    display: flex;
+}
+
 .gallery img {
     display: inline-block;
     max-width: 360px;
     max-height: 720px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
