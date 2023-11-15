@@ -57,3 +57,11 @@ header a {
     height: 100px;
     width: 100px;
 }
+
+.gallery img {
+    display: inline-block;
+    max-width: 360px;
+    max-height: 720px;
+    justify-content: center;
+    align-items: center;
+}
