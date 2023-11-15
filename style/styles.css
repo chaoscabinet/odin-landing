@@ -14,6 +14,7 @@ header {
 .hero {
     background-color: #1f2937;
     display: flexbox;
+    justify-content: center;
 }
 
 .navbar {
@@ -34,6 +35,6 @@ li a {
 
 .hero-image {
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
 }
