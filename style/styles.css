@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     width: 100%;
 }
 
@@ -40,6 +40,8 @@ header li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
+    position: relative;
+    right: 10%;
 }
 
 header a {
@@ -53,6 +55,7 @@ header a {
     align-items: center;
     font-size: 48px;
     font-weight: bolder;
+    padding: 25px;
 }
 
 .hero-button {
@@ -68,13 +71,13 @@ header a {
     justify-content: right;
     max-height: 600px;
     max-width: 800px;
-    margin: 50px;
+    margin: auto;
+    padding: 25px;
 }
 
 .gallery {
     background-color: #fff;
     display: block;
-    position: fixed;
     width: 100%;
 }
 
@@ -96,7 +99,31 @@ header a {
     flex: 1;
 }
 
+.col .img{
+    flex-direction: column;
+    flex: 1;
+    max-width: 360px;
+}
+
 .gallery img {
     max-width: 360px;
     max-height: 720px;
+    justify-content: space-around;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote h3 {
+    position: relative;
+    left: 25%;
 }
