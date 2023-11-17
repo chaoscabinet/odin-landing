@@ -51,6 +51,13 @@ header a {
     font-weight: bolder;
 }
 
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 15%;
+    height: 45px;
+    width: 80px;
+}
+
 #hero-image {
     display: inline;
     justify-content: right;
@@ -60,13 +67,29 @@ header a {
 
 .gallery {
     background-color: #fff;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.row {
     display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
 }
 
 .gallery img {
-    display: inline-block;
     max-width: 360px;
     max-height: 720px;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
 }
