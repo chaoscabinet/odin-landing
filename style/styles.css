@@ -76,9 +76,9 @@ header a {
 }
 
 .gallery {
-    background-color: #fff;
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 .gallery h2 {
@@ -115,15 +115,42 @@ header a {
     display: flex;
     background-color: #e5e7eb;
     color: #1f2937;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .quote p {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    padding-bottom: 10px;
 }
 
-.quote h3 {
+.quote h2 {
     position: relative;
-    left: 25%;
+    left: 75%;
+    padding-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    position: relative;
 }
